@@ -1,0 +1,26 @@
+// Override or add CSS variables for your theme here
+
+:root {
+  --ds-header-logo-height: 80px;
+  --ds-banner-text-background: rgba(0, 0, 0, 0.45);
+  --ds-banner-background-gradient-width: 300px;
+  --ds-home-news-link-color: #{$green};
+  --ds-home-news-link-hover-color: #{darken($green, 15%)};
+  --ds-content-spacing: 0px;
+
+  --ds-header-bg: #3D64F0;
+  --ds-header-icon-color: white;
+  --ds-header-icon-color-hover: #F44E76;
+  --ds-navbar-link-color: white; 
+  --ds-navbar-link-color-hover: #F44E76;
+
+  --vallecentral-rojo-principal: #F44E76;
+  --vallecentral-azul-claro: #3D64F0;
+  --vallecentral-azul-medio: #3647E8;
+  --vallecentral-azul-oscuro: #4368DD;
+  --ds-footer-bg: #121212;
+  --bs-link-color: #3D64F0;
+  --ds-footer-padding: 10px;
+}
+
+
