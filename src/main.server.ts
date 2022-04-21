@@ -9,7 +9,7 @@ import { enableProdMode } from '@angular/core';
  */
 import '@angular/localize/init';
 
-import { environment } from './environments/environment';
+import { environment } from './environments/environment.api7';
 
 if (environment.production) {
   enableProdMode();
